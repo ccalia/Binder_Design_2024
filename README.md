@@ -2,7 +2,7 @@
 ## BioML Challenge 2024: Bits to Binders
 
 <p align="center">
-  <img src="./figures/binder_with_CD20_in_membrane.png" alt="Designed binders with CD20 in a membrane" width="800px" align="middle"/>
+  <img src="./figures/binder_with_CD20_in_membrane.png" alt="Designed binders with CD20 in a membrane" width="700px" align="middle"/>
 </p>
 
 ## Team Members
@@ -28,7 +28,7 @@ text text text...
  - **Filter_CD_AF_output_fasta_RFD_pdbs.py:** Script for identifying best designs based on AlphaFold2 metrics from outputs of Run_ProteinMPNN_and_AlphaFold2_for_RFdiffusion_Binders_with_ColabDesign_gdrive.ipynb. Basically just organizes the notebook's outputs.
  - **full_protocol.txt:** Full details of our workflow, including all RFdiffusion commands.
  - **CD20_Binders.fasta:** The fasta file we submitted, with our top 500 sequences.
- - **CD20_Binders.csv:** Spreadsheet containing all sequences we obtained with pae_interaction < 22 and RMSD < 8 Å.
+ - **CD20_Binders.csv:** Spreadsheet containing all sequences we obtained with pae_interaction < 22 and RMSD < 8 Å, and their AlphaFold2 metrics.
 
 ## References
 
